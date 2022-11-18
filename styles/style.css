@@ -1,0 +1,28 @@
+body {
+    margin: 0 0 0 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.col {
+    padding: 5%;
+    margin-top: 5%;
+    margin: 0.5rem;
+    /*border: solid grey;*/
+}
+
+.image {
+    border-radius: 20px;
+}
